@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="learn_c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learn_c">
+				<Option output="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/learn_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 learn_c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="learn_c/fast">
+				<Option output="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/learn_c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 learn_c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/ilja/Dropbox/c_code_samples/learn-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/arrays.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/arrays_and_pointers.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/binary_shifts.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/bst.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/bst_tut.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/conditions.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/data_types.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/dynamic.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/fn_args.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/fn_pointers.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/forloops.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/functions.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/hello.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/linked_lists.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/multidim_arrays.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/pointer_arithmetic.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/pointers.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/recursion.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/signed_unsigned.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/static.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/strings.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/structures.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/union.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/whileloops.c">
+			<Option target="learn_c"/>
+		</Unit>
+		<Unit filename="/Users/ilja/Dropbox/c_code_samples/learn-c/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
